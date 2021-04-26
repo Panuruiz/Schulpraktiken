@@ -10,7 +10,8 @@
     -Define a web font for the heading h1 and use Google Fonts.
     -You will also find a small form in the template.
         • Define rounded corners for the normal state of the input fields.
-        • The input elements should receive a shadow and a different border color when you click on them (: focus).
+        • The input elements should receive a shadow and a different border color 
+          when you click on them.
         • So that the change does not take place so abruptly, please define a transition.
     
     -There is also a send button (log in) in the form:
