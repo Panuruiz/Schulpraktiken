@@ -1,2 +1,3 @@
 # Schulpraktiken
-Small practical projects for school
+
+Just some examples of the use of technologies that I have learned in school 
