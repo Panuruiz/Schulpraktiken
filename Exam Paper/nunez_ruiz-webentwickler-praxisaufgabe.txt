@@ -1,0 +1,56 @@
+Abschlussarbeit 
+**********************************************************************************
+Pablo Núñez Ruiz – Geprüfte Webentwickler
+**********************************************************************************
+A. Praxisaufgabe -----------------------------------------------------------------
+
+Dateien, die auf der Boilerplate erstellt, geändert oder hinzugefügt wurden: 
+
+Aufgabe 1: Semantisches Markup -------------------------------------------------|
+                                                                                
+- index.html    => Struktur und Inhalt                                          |
+- img/…         => Die Bilder                                                   |
+            
+
+ Aufgabe 2: Responsives Layout -------------------------------------------------|
+
+- css/main.css  => Gestaltung                                                   |
+- index.html    => Dateiaufruf                                                  |
+
+
+Aufgabe 3: Geolocation ---------------------------------------------------------|
+
+- js/main.js => Script                                                          |
+- index.html => Dateiaufruf                                                     |
+
+
+Aufgabe 4: Link als Button -----------------------------------------------------|
+
+- index.html    => link zur jqm.html                                            |
+- css/main.css  => Gestaltung                                                   |
+
+
+Aufgabe 5: Zwei Unterseiten mit jQuery Mobile ----------------------------------|
+
+- jqm.html                       => WebApp-Struktur, Dataiaufruf und Gestaltung |
+- js/…                           => jQuery und jQuery Mobile Libraries          |
+- css/jquery.mobile-1.4.5.css    => jQuery Styles-Library                       |
+- css/jqmEdit.css                => Entwickleränderungen                        |
+________________________________________________________________________________|
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+

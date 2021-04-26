@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meine erste App mit Vue</title>
+    <script src="lib/js/vue.js"></script>
+    <link rel="stylesheet" href="lib/css/style.css">
+</head>
+
+<body>
+    <div id="AufgabenApp">
+        <h1>To-do-List</h1>
+        <p>
+            <label for="neuAufgabe">Weitere Aufgaben</label>
+            <input type="text" id="neueAufgabe" v-model="neueAufgabe" @keyup.enter="aufgabeHinzu()">
+            <button class="hinzu" @click="aufgabeHinzu()">Hinzufügen</button>
+        </p>
+        <h2>Alle Aufgaben</h2>
+        <ul>
+            <li class="alle" v-for=" (aufgabe, index) in aufgaben" :class="{ 'abgeschlossen' : aufgabe.fertig}">
+                <p>{{aufgabe.beschreibung}}</p>
+                <button class="erledigtWechseln" @click="erledigtWechseln(index)">v
+                </button>
+                <button class="loeschen" @click="loeschen(index)">x</button>
+            </li>
+        </ul>
+        <h3>Noch tun</h3>
+        <ul>
+            <li class="nochTun" v-for="aufgabe in nichterledigt">{{aufgabe.beschreibung}}</li>
+        </ul>
+        <h3>Abgeschlossen</h3>
+        <ul>
+            <li class="fertig" v-for="aufgabe in erledigt">{{aufgabe.beschreibung}}</li>
+        </ul>
+    </div>
+    <script src="lib/js/javascript.js"></script>
+</body>
+
+</html>

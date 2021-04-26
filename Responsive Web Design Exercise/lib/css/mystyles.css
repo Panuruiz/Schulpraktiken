@@ -1,0 +1,164 @@
+:root {
+    --kalt-dunkelste: #100e7e;
+    --kalt-dunkel: #3248E6;
+    --warm-dunkelste: #e75b28;
+    --warm-dunkel: #eeb367;
+    --warm-hell: #e6cc79;
+    --warm-hellste: rgb(240, 237, 229);
+
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--warm-dunkel);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--warm-hellste);
+}
+
+header {
+    background-color: var(--kalt-dunkelste);
+}
+
+header h1 {
+    text-align: center;
+    color: var(--warm-dunkel);
+}
+
+nav {
+    background-color: var(--warm-dunkel);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav li {
+    list-style: none;
+    width: 6em;
+    height: 3em;
+    text-align: center;
+}
+
+nav a, nav a:focus, nav a:visited {
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--kalt-dunkelste);
+    background-color: var(--warm-dunkel);
+    line-height: 3;
+}
+
+article {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--warm-hellste);
+}
+
+article h2 {
+    font-weight: bold;
+    color: var(--warm-dunkelste);
+
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 900px) {
+
+    #container {
+        margin: 0 10% 0 10%;
+        max-width: 80%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    header {
+        min-width: 100%;
+        flex: 1;
+    }
+
+    nav {
+        background-color: var(--kalt-dunkel);
+        border-style: solid;
+        border-color: var(--kalt-dunkelste);
+        border-width: 0 0.5em 0 0;
+        margin: 0;
+        padding: 0;
+        width: 20%;
+    }
+
+    nav ul {
+        margin: 2em 0 0 0;
+        width: 100%;
+        height: 50%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav li {
+        width: 80%;
+    }
+
+    nav a {
+        border-radius: 0.3em;
+    }
+
+    nav a:hover {
+        color: var(--warm-hell);
+        background-color: var(--kalt-dunkelste);
+    }
+
+    main {
+        margin: 0;
+        padding: 2em;
+        max-width: 70%;
+    }
+    
+    article {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    article h2 {
+        min-width: 100%;
+        flex: 1;
+    }
+
+    article p:first-of-type {
+        flex: 1;
+        min-width: 100%;
+    }
+
+    article p {
+        flex: 2;
+    }
+    
+    figure {
+        margin: 0.5em 1em 1em 0;
+    }
+    
+}

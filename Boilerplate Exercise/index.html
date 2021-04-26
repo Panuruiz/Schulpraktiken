@@ -1,0 +1,140 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Núñez Ruiz, Pablo - WEBD04A</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <main id="container">
+        <header id="header">
+            <div class="canvasContainer">
+                <canvas id="canvas" width="350" height="100"></canvas>
+            </div>
+            <h1>Pablo Núñez Ruiz WEBD04A-Aufgabe</h1>
+        </header>
+        <nav id="navigation">
+            <ul id="navMenu">
+                <li id="link1"><a href="#">Link 1</a></li>
+                <li id="link2"><a href="#">Link 2</a></li>
+                <li id="link3"><a href="#">Link 3</a></li>
+                <li id="link4"><a href="#">Link 4</a></li>
+            </ul>
+
+        </nav>
+        <section id="inhalt">
+            <article>
+                <figure id="bild">
+                    <img src="img/wald.jpeg" alt=" ">
+                    <figcaption>
+                        Wald am Titisee, Schwarzwald
+                    </figcaption>
+                </figure>
+            </article>
+            <hr>
+            <h2>Formular</h2>
+            <br>
+            <article>
+                <form name="myform" id="formular1" method="GET" autocomplete="off" action="">
+                    <p>
+                        <label>Suche:
+                            <input type="search" name="search" id="suche" autofocus>
+                            <input type="submit" value="Suchen">
+                        </label>
+
+                    </p>
+            </article>
+            <hr>
+            <article>
+                <form name="myform" id="formular2" method="GET" autocomplete="off" action="">
+                    <p>
+                        <label>Nachname:
+                            <input type="text" name="name" id="nachname" placeholder="Núñez" required>
+                        </label>
+                    </p>
+                    <p>
+                        <label>Zufriedenheitsgrad:
+                            <input type="range" name="zufrieden" id="zufrieden">
+                        </label>
+                    </p>
+                    <p>
+                        <label>Alter:
+                            <input type="number" min="0" max="125" name="age" id="alter">
+                        </label>
+                    </p>
+                    <p>
+                        <label>Lieblingsurlaubsort:
+                           <input type="text" list="ortenliste" name="urlaubsort" id="orten">
+                           <datalist id="ortenliste">
+                                <option value="Strand">
+                                <option value="Berg">
+
+                           </datalist> 
+                        </label>
+                    </p>
+                    <p>
+                        <input type="submit" value="Senden">
+                    </p>
+                </form>
+            </article>
+            <hr>
+            <article class="media">
+                <h2>U-Bahn</h2>
+                <video width="450" height="337" controls>
+                    <source src="video/u-bahn.mp4" type="video/mp4">
+                    <source src="video/u-bahn.ogv" type="video/ogg">
+                    <p>Ihr Browser unterstützt das video-Element nicht</p>
+                </video>
+            </article>
+        </section>
+        <aside id="sidebar">
+            <div id="datum"></div>
+        </aside>
+        <footer id="footer">
+            <p>&copy;2021 Pablo Núñez Ruiz</p>
+            <ul>
+                <li><a href="#">Impressum</a></li>
+                <li><a href="#">Datenschutz</a></li>
+            </ul>
+        </footer>
+
+    </main>
+    <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <!--<script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('send', 'pageview')
+    </script>-->
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>

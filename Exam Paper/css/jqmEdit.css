@@ -1,0 +1,18 @@
+/*---------- Stilbearbeitung über den jQuery Mobile-Standard ----------*/
+
+.btn-dialog-aufrufen {
+    background-image: linear-gradient(#6e90d4, #37538c);
+    color: white !important;
+    text-shadow: none !important;
+}
+
+.app-header,
+.app-footer,
+.dialog-header {
+    background-image: linear-gradient(gray, black);
+}
+
+li>a {
+    background-image: linear-gradient(rgb(204, 204, 204), grey);
+    font-size: 1.2em !important;
+}
