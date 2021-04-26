@@ -1,5 +1,6 @@
 #Objectives:
 ![Screenshot](screenshot.png)
+
     0-Preparation
         • You will find the HTML template ea.html in your download folder.
         • Copy this file into a separate folder. Create sub-folders for 
