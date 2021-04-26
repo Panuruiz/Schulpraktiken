@@ -1,5 +1,5 @@
 #Objectives:
-
+![Screenshot](screenshot.png)
     1. Semantic markup:
         Create a page structure with the following structure:
         • Header with heading

@@ -1,5 +1,6 @@
 #Objectives:
-
+  ![Screenshot](screenshot.png)
+  
     -Please follow the mobile-first principle and create a website 
      with a simple one-column layout, without footer and aside.
 

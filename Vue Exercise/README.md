@@ -1,5 +1,7 @@
 #Objectives 
 
+![Screenshot](screenshot.png)
+
     Create a to-do app with Vue.js. It contains at least the following components:
         -There is an input field through which the user can add new tasks.
         -Below is a list of the tasks with two buttons each.

@@ -1,4 +1,5 @@
 #Objectives:
+![Screenshot](screenshot.png)
 
     1-Page structure with sensibly used semantic markup using the semantic elements 
       (main, header, nav, footer, section, article, aside). 
